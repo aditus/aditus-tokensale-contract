@@ -5,7 +5,9 @@ This is the code for the Ethereum smartcontract responsible for Aditus token sal
 ## Explore the Contract 
 
 ##### Testnet
-Coming soon...
+[Ropsten] https://ropsten.etherscan.io/tx/0xba8df54ac0fe5511480db237ca828920808587cecc72c21920190d86ba517627
+[Rinkeby] Coming soon...
+
 ##### Mainnet
 Coming soon...
 
