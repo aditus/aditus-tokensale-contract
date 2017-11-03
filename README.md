@@ -25,16 +25,16 @@ The token sale procedure for Aditus would be handled as such:
 
 We are using this current approach to minimise smart contracts flaws while enabling operational flexibility to deal with unexpected circumstance. 
 
-#### KYC & Whitelisting 
+### 1. KYC & Whitelisting 
 Token sale participants will be required to whitelist contribution and destination address as part of the KYC process. Contribution and Destination address will be used in the case where user accounts got hacked for dispute resolution to happen during the verification phase
 
-#### Funding Phase
+### 2. Funding Phase
 Token sale starts and the Aditus Foundation multisignature address is revealed. 
 
-#### Verification Phase
+### 3. Verification Phase
 Token sale ends and an email will be sent to all participants for verification with the essential transaction hash as proof within blockchain explorer
 
-#### Token Distribution Phase
+### 4. Token Distribution Phase
 Token sale participants will receive their contributed amount equivalent of ADT tokens in their destination wallets. 
 
 ---
