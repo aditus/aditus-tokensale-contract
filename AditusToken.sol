@@ -104,7 +104,7 @@ contract AditusToken is StandardToken {
     uint public lockTimeMilestone1 = 182 days;
     uint public lockTimeMilestone2 = 365 days;
     uint256 lockedAmount;
-    // exToken public tokenAddress;
+    // StandardToken public tokenAddress;
 
     function AditusToken(
         ) {
