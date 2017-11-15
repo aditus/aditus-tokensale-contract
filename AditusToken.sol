@@ -99,12 +99,6 @@ contract AditusToken is StandardToken {
     uint8 public decimals;               
     string public symbol;                
     string public version = 'A1.0';   
-    
-    //uint public startTime = now;
-    //uint public lockTimeMilestone1 = 182 days;
-    //uint public lockTimeMilestone2 = 365 days;
-    //uint256 lockedAmount;
-    // StandardToken public tokenAddress;
 
     function AditusToken(
         ) {
@@ -126,17 +120,4 @@ contract AditusToken is StandardToken {
         if(!_spender.call(bytes4(bytes32(sha3("receiveApproval(address,uint256,address,bytes)"))), msg.sender, _value, this, _extraData)) { throw; }
         return true;
     }
-    
-    // modifier onlyBy(address _account){
-      // require(msg.sender == _account);
-      // _;
-    // }
-    
-    // Add in timelock for founders & team allocation for vesting
-    // function withdraw() onlyBy(owner) {
-    //   lockedAmount = tokenAddress.balanceOf(this);
-    //   if ((startTime + lockTimeMilestone1) < now){
-    //     tokenAddress.transfer(owner, lockedAmount);
-    //   }
-    // }
 }
