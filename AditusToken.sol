@@ -100,10 +100,10 @@ contract AditusToken is StandardToken {
     string public symbol;                
     string public version = 'A1.0';   
     
-    uint public startTime = now;
-    uint public lockTimeMilestone1 = 182 days;
-    uint public lockTimeMilestone2 = 365 days;
-    uint256 lockedAmount;
+    //uint public startTime = now;
+    //uint public lockTimeMilestone1 = 182 days;
+    //uint public lockTimeMilestone2 = 365 days;
+    //uint256 lockedAmount;
     // StandardToken public tokenAddress;
 
     function AditusToken(
@@ -112,7 +112,7 @@ contract AditusToken is StandardToken {
         totalSupply = 1000000000;                        // Update total supply (100000 for example)
         name = "Aditus";                                   // Set the name for display purposes
         decimals = 18;                            // Amount of decimals for display purposes
-        symbol = "ADT";                               // Set the symbol for display purposes
+        symbol = "ADI";                               // Set the symbol for display purposes
     }
 
     /* Approves and then calls the receiving contract */
@@ -127,10 +127,10 @@ contract AditusToken is StandardToken {
         return true;
     }
     
-      modifier onlyBy(address _account){
-        require(msg.sender == _account);
-        _;
-      }
+    // modifier onlyBy(address _account){
+      // require(msg.sender == _account);
+      // _;
+    // }
     
     // Add in timelock for founders & team allocation for vesting
     // function withdraw() onlyBy(owner) {
